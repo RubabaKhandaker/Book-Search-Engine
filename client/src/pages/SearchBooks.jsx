@@ -98,7 +98,6 @@ const SearchBooks = async () => {
   } catch (err) {
     console.error(err);
   }
-};
 
 	return (
 		<>
@@ -173,5 +172,7 @@ const SearchBooks = async () => {
 			</Container>
 		</>
 	);
+
+};
 
 export default SearchBooks;
